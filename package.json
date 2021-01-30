@@ -1,6 +1,6 @@
 {
-  "name": "huffman-url-compressor",
-  "version": "1.0.2",
+  "name": "@dworznik/huffman-url-compressor",
+  "version": "1.0.3",
   "description": "Convert any kind of String into a url-friendly parameter using Huffman Encoding.",
   "main": "huffman.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlacosta/huffman-url-compressor.git"
+    "url": "git+https://github.com/dworznik/huffman-url-compressor.git"
   },
   "keywords": [
     "huffman",
@@ -19,7 +19,7 @@
   "author": "Mariano L. Acosta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mlacosta/huffman-url-compressor/issues"
+    "url": "https://github.com/dworznik/huffman-url-compressor/issues"
   },
-  "homepage": "https://github.com/mlacosta/huffman-url-compressor#readme"
+  "homepage": "https://github.com/dworznik/huffman-url-compressor#readme"
 }
