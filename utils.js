@@ -81,11 +81,12 @@ function getFrequency(string) {
 };
 
 function createEncoder(train) {
-
   let freqArr = getFrequency(train);
+  return encoderFromFrequency(freqArr);
+}
 
+function encoderFromFrequency(freqArr) {
   //create min heap structure
-
   let Heap = new MinHeap();
 
   freqArr.forEach(val => Heap.insert(new Node(val.freq, val.symbol, null, null)));
@@ -104,7 +105,6 @@ function createEncoder(train) {
   }
 
   return Heap.heap[1];
-
 }
 
 function getBitstring(char, Graph) {
@@ -155,5 +155,6 @@ function decodeConfig(param, encoder) {
 
 module.exports = {
   getBitstring, getFrequency, Node, decodeConfig,
-  decodeMsg, dec2bin, encodeConfig, createEncoder
+  decodeMsg, dec2bin, encodeConfig, createEncoder,
+  encoderFromFrequency
 }
