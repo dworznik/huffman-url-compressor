@@ -1,5 +1,5 @@
-const { decodeConfig, encodeConfig, createEncoder } = require('./utils.js');
+const { decodeConfig, encodeConfig, createEncoder, getFrequency, encoderFromFrequency } = require('./utils.js');
 
 module.exports = {
-  createEncoder, encodeConfig, decodeConfig
+  createEncoder, encodeConfig, decodeConfig, getFrequency, encoderFromFrequency
 }
