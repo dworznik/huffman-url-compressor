@@ -4,7 +4,7 @@
   "description": "Convert any kind of String into a url-friendly parameter using Huffman Encoding.",
   "main": "huffman.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
