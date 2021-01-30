@@ -1,6 +1,6 @@
 {
   "name": "@dworznik/huffman-url-compressor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert any kind of String into a url-friendly parameter using Huffman Encoding.",
   "main": "huffman.js",
   "scripts": {
